@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="aosp" fetch=".." />
+  <remote  name="aosp2" fetch="https://github.com/wwzbwwzb/dvr.git" />
+  <default revision="refs/tags/version2"
+           remote="aosp"
+           />
+
+	<project path="build" name="opensurvillance" />
+</manifest>
